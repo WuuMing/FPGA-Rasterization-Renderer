@@ -1,0 +1,9 @@
+In file included from ../src/main.cpp:1:
+In file included from ../src/main.h:10:
+../src/triangle.h:4:9: warning: 'INT_WIDTH' macro redefined [-Wmacro-redefined]
+#define INT_WIDTH 14
+        ^
+/usr/include/limits.h:162:11: note: previous definition is here
+#  define INT_WIDTH 32
+          ^
+1 warning generated.

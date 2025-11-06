@@ -1,0 +1,143 @@
+
+
+================================================================
+== Vitis HLS Report for 'zbuffer'
+================================================================
+* Date:           Mon Oct 27 17:27:46 2025
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        render
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.254 ns|     2.50 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.25>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln15 = specpipeline void @_ssdm_op_SpecPipeline, i32 3, i32 0, i32 0, i32 0, void @empty_11" [../src/zbuffer.cpp:15]   --->   Operation 2 'specpipeline' 'specpipeline_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 3 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 4 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 5 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 6 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 7 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 8 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 9 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 10 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specmemcore_ln15 = specmemcore void @_ssdm_op_SpecMemCore, i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8, i64 666, i64 211, i64 18446744073709551615" [../src/zbuffer.cpp:15]   --->   Operation 11 'specmemcore' 'specmemcore_ln15' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%y_index_0_val_read = read i7 @_ssdm_op_Read.ap_auto.i7, i7 %y_index_0_val" [../src/zbuffer.cpp:27]   --->   Operation 12 'read' 'y_index_0_val_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%x_index_0_val_read = read i7 @_ssdm_op_Read.ap_auto.i7, i7 %x_index_0_val" [../src/zbuffer.cpp:27]   --->   Operation 13 'read' 'x_index_0_val_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%tmp = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i7.i7, i7 %x_index_0_val_read, i7 %y_index_0_val_read" [../src/zbuffer.cpp:30]   --->   Operation 14 'bitconcatenate' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%zext_ln30 = zext i14 %tmp" [../src/zbuffer.cpp:30]   --->   Operation 15 'zext' 'zext_ln30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 16 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 17 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 18 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 19 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 20 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 21 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 22 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 23 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_addr = getelementptr i18 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer, i64 0, i64 %zext_ln30" [../src/zbuffer.cpp:30]   --->   Operation 24 'getelementptr' 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_addr" [../src/zbuffer.cpp:30]   --->   Operation 25 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 26 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_addr" [../src/zbuffer.cpp:30]   --->   Operation 26 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 27 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_addr" [../src/zbuffer.cpp:30]   --->   Operation 27 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 28 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_addr" [../src/zbuffer.cpp:30]   --->   Operation 28 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 29 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_addr" [../src/zbuffer.cpp:30]   --->   Operation 29 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 30 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_addr" [../src/zbuffer.cpp:30]   --->   Operation 30 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 31 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_addr" [../src/zbuffer.cpp:30]   --->   Operation 31 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 32 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_addr" [../src/zbuffer.cpp:30]   --->   Operation 32 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 33 [1/1] (3.25ns)   --->   "%store_ln30 = store i18 131072, i14 %zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_addr" [../src/zbuffer.cpp:30]   --->   Operation 33 'store' 'store_ln30' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_S2P_BRAM">   --->   Core 92 'RAM_S2P_BRAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 16384> <RAM>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 34 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.500ns.
+
+ <State 1>: 3.254ns
+The critical path consists of the following:
+	wire read operation ('y_index_0_val_read', ../src/zbuffer.cpp:27) on port 'y_index_0_val' (../src/zbuffer.cpp:27) [22]  (0.000 ns)
+	'getelementptr' operation 14 bit ('zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_addr', ../src/zbuffer.cpp:30) [26]  (0.000 ns)
+	'store' operation 0 bit ('store_ln30', ../src/zbuffer.cpp:30) of constant 131072 on array 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8' [35]  (3.254 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

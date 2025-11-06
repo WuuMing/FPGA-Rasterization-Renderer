@@ -1,0 +1,98 @@
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:1326:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:1326:7: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:2300:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:2300:5: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:2314:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:2314:5: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:2328:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:2328:5: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:3945:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:3945:7: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9157:44: error: Invalid Directive: for current device, ram_s2p + bram is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=pic type=ram_s2p impl=bram
+                                           ^
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9246:9: warning: Added loop label VITIS_LOOP_105_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < 3; i++) {
+        ^~~
+        VITIS_LOOP_105_1: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9246:9: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9334:2: warning: Added loop label VITIS_LOOP_193_2:   [xilinx-label-all-loops]
+ for(int i=0;i<9;i++){
+ ^~~
+ VITIS_LOOP_193_2: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9334:2: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9339:9: warning: Added loop label VITIS_LOOP_198_3:   [xilinx-label-all-loops]
+        for(ap_uint<4> i=0;i<3;i++){
+        ^~~
+        VITIS_LOOP_198_3: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9339:9: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9368:9: warning: Added loop label VITIS_LOOP_227_4:   [xilinx-label-all-loops]
+        for (int n = 128 -1; n >=0; n--) {
+        ^~~
+        VITIS_LOOP_227_4: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9368:9: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9369:13: warning: Added loop label VITIS_LOOP_228_5:   [xilinx-label-all-loops]
+            for (int m = 0; m < 128; m++) {
+            ^~~
+            VITIS_LOOP_228_5: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9369:13: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9370:17: warning: Added loop label VITIS_LOOP_229_6:   [xilinx-label-all-loops]
+                for(int t=0;t<3;t++){
+                ^~~
+                VITIS_LOOP_229_6: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9370:17: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9379:13: warning: Added loop label VITIS_LOOP_238_7:   [xilinx-label-all-loops]
+            for(int i=0;i<256;i++){
+            ^~~
+            VITIS_LOOP_238_7: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9379:13: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9384:13: warning: Added loop label VITIS_LOOP_243_8:   [xilinx-label-all-loops]
+            for (int m = 0; m < 128; m++) {
+            ^~~
+            VITIS_LOOP_243_8: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9384:13: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9385:17: warning: Added loop label VITIS_LOOP_244_9:   [xilinx-label-all-loops]
+                for(int t=0;t<3;t++){
+                ^~~
+                VITIS_LOOP_244_9: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9385:17: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9394:13: warning: Added loop label VITIS_LOOP_253_10:   [xilinx-label-all-loops]
+            for(int i=0;i<256;i++){
+            ^~~
+            VITIS_LOOP_253_10: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9394:13: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9399:13: warning: Added loop label VITIS_LOOP_258_11:   [xilinx-label-all-loops]
+            for (int m = 0; m < 128; m++) {
+            ^~~
+            VITIS_LOOP_258_11: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9399:13: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9400:17: warning: Added loop label VITIS_LOOP_259_12:   [xilinx-label-all-loops]
+                for(int t=0;t<3;t++){
+                ^~~
+                VITIS_LOOP_259_12: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9400:17: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9409:13: warning: Added loop label VITIS_LOOP_268_13:   [xilinx-label-all-loops]
+            for(int i=0;i<256;i++){
+            ^~~
+            VITIS_LOOP_268_13: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9409:13: note: FIX-IT applied suggested code changes
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9415:9: warning: Added loop label VITIS_LOOP_274_14:   [xilinx-label-all-loops]
+        for(int i=0;i<30591;i++){
+        ^~~
+        VITIS_LOOP_274_14: 
+/home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp:9415:9: note: FIX-IT applied suggested code changes

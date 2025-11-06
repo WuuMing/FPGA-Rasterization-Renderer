@@ -1,0 +1,93 @@
+{
+  "0": {
+    "basicblocks": 118,
+    "calls": "4 2 3 1 5 4",
+    "file": "main.cpp",
+    "fileloc": 3,
+    "instructions": 1808,
+    "loads": {
+      "G": 2,
+      "L": 106
+    },
+    "name": "main_process",
+    "stores": {
+      "G": 16,
+      "L": 116
+    },
+    "total_instructions": 34129
+  },
+  "1": {
+    "basicblocks": 59,
+    "calls": "",
+    "file": "triangle.cpp",
+    "fileloc": 4,
+    "instructions": 922,
+    "name": "triangle",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 14915
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "rotate_move.cpp",
+    "fileloc": 4,
+    "instructions": 157,
+    "loads": {
+      "L": 3
+    },
+    "name": "rotate_move",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 3337
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "rotate_norm.cpp",
+    "fileloc": 4,
+    "instructions": 123,
+    "loads": {
+      "L": 3
+    },
+    "name": "rotate_norm",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 2421
+  },
+  "4": {
+    "basicblocks": 25,
+    "calls": "",
+    "file": "zbuffer.cpp",
+    "fileloc": 3,
+    "instructions": 192,
+    "loads": {
+      "G": 1,
+      "L": 5
+    },
+    "name": "zbuffer",
+    "stores": {
+      "G": 3,
+      "L": 3
+    },
+    "total_instructions": 911
+  },
+  "5": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "get_index.cpp",
+    "fileloc": 3,
+    "instructions": 267,
+    "loads": {
+      "L": 5
+    },
+    "name": "compute_indices",
+    "stores": {
+      "L": 5
+    },
+    "total_instructions": 1953
+  }
+}

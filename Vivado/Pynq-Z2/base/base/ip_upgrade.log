@@ -1,0 +1,94 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Sat Oct 25 16:11:39 2025
+| Host         : ubuntu running 64-bit Ubuntu 24.10
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'main_process_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of main_process_0 (xilinx.com:hls:main_process:1.0) from (Rev. 2114319213) to (Rev. 2114319246)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Sat Oct 25 15:38:16 2025
+| Host         : ubuntu running 64-bit Ubuntu 24.10
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'main_process_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of main_process_0 (xilinx.com:hls:main_process:1.0) from (Rev. 2114319120) to (Rev. 2114319213)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Sat Oct 25 14:02:19 2025
+| Host         : ubuntu running 64-bit Ubuntu 24.10
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'main_process_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of main_process_0 (xilinx.com:hls:main_process:1.0) from (Rev. 2114318211) to (Rev. 2114319120)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'main_process_0'. These changes may impact your design.
+
+
+-Upgraded port 'output_stream_TDATA' width 24 differs from original width 32
+
+-Upgraded port 'output_stream_TKEEP' width 3 differs from original width 4
+
+-Upgraded port 'output_stream_TSTRB' width 3 differs from original width 4
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (lin64) Build 5076996 Wed May 22 18:36:09 MDT 2024
+| Date         : Fri Oct 24 20:47:21 2025
+| Host         : ubuntu running 64-bit Ubuntu 24.10
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'main_process_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of main_process_0 (xilinx.com:hls:main_process:1.0) from (Rev. 2114317989) to (Rev. 2114318082)
+

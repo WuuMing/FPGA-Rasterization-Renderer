@@ -1,0 +1,3 @@
+relativeroot=/home/wu/__PYNQ__/hls_ok/render
+original_argv=--mode hls --package --config /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg --work_dir render 
+

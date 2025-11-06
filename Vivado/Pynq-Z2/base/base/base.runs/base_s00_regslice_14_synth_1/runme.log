@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log base_s00_regslice_14.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_s00_regslice_14.tcl
+

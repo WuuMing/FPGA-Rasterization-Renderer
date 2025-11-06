@@ -1,0 +1,170 @@
+
+
+================================================================
+== Vitis HLS Report for 'rotate_norm'
+================================================================
+* Date:           Mon Oct 27 17:27:47 2025
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        render
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.580 ns|     2.50 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        4|        4|  40.000 ns|  40.000 ns|    3|    3|      yes|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 3, depth = 5
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 5
+* Pipeline : 1
+  Pipeline-0 : II = 3, D = 5, States = { 1 2 3 4 5 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.05>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%i_n_0_0_val_read = read i10 @_ssdm_op_Read.ap_auto.i10, i10 %i_n_0_0_val" [../src/rotate_norm.cpp:13]   --->   Operation 6 'read' 'i_n_0_0_val_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i_a11_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %i_a11" [../src/rotate_norm.cpp:13]   --->   Operation 7 'read' 'i_a11_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%sext_ln17 = sext i16 %i_a11_read" [../src/rotate_norm.cpp:17]   --->   Operation 8 'sext' 'sext_ln17' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%sext_ln17_1 = sext i10 %i_n_0_0_val_read" [../src/rotate_norm.cpp:17]   --->   Operation 9 'sext' 'sext_ln17_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [3/3] (1.05ns) (grouped into DSP with root node add_ln17)   --->   "%mul_ln17 = mul i24 %sext_ln17, i24 %sext_ln17_1" [../src/rotate_norm.cpp:17]   --->   Operation 10 'mul' 'mul_ln17' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 2 <SV = 1> <Delay = 5.58>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "%i_n_0_2_val_read = read i10 @_ssdm_op_Read.ap_auto.i10, i10 %i_n_0_2_val" [../src/rotate_norm.cpp:13]   --->   Operation 11 'read' 'i_n_0_2_val_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%i_n_0_1_val_read = read i10 @_ssdm_op_Read.ap_auto.i10, i10 %i_n_0_1_val" [../src/rotate_norm.cpp:13]   --->   Operation 12 'read' 'i_n_0_1_val_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (0.00ns)   --->   "%i_a13_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %i_a13" [../src/rotate_norm.cpp:13]   --->   Operation 13 'read' 'i_a13_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%i_a12_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %i_a12" [../src/rotate_norm.cpp:13]   --->   Operation 14 'read' 'i_a12_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [2/3] (1.05ns) (grouped into DSP with root node add_ln17)   --->   "%mul_ln17 = mul i24 %sext_ln17, i24 %sext_ln17_1" [../src/rotate_norm.cpp:17]   --->   Operation 15 'mul' 'mul_ln17' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%sext_ln17_2 = sext i16 %i_a12_read" [../src/rotate_norm.cpp:17]   --->   Operation 16 'sext' 'sext_ln17_2' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%sext_ln17_3 = sext i10 %i_n_0_1_val_read" [../src/rotate_norm.cpp:17]   --->   Operation 17 'sext' 'sext_ln17_3' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (5.58ns)   --->   "%mul_ln17_1 = mul i24 %sext_ln17_2, i24 %sext_ln17_3" [../src/rotate_norm.cpp:17]   --->   Operation 18 'mul' 'mul_ln17_1' <Predicate = true> <Delay = 5.58> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 5.58> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "%sext_ln17_4 = sext i16 %i_a13_read" [../src/rotate_norm.cpp:17]   --->   Operation 19 'sext' 'sext_ln17_4' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%sext_ln17_5 = sext i10 %i_n_0_2_val_read" [../src/rotate_norm.cpp:17]   --->   Operation 20 'sext' 'sext_ln17_5' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [3/3] (1.05ns) (grouped into DSP with root node t1)   --->   "%mul_ln17_2 = mul i24 %sext_ln17_4, i24 %sext_ln17_5" [../src/rotate_norm.cpp:17]   --->   Operation 21 'mul' 'mul_ln17_2' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 3 <SV = 2> <Delay = 2.10>
+ST_3 : Operation 22 [1/3] (0.00ns) (grouped into DSP with root node add_ln17)   --->   "%mul_ln17 = mul i24 %sext_ln17, i24 %sext_ln17_1" [../src/rotate_norm.cpp:17]   --->   Operation 22 'mul' 'mul_ln17' <Predicate = true> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 23 [2/2] (2.10ns) (root node of the DSP)   --->   "%add_ln17 = add i24 %mul_ln17_1, i24 %mul_ln17" [../src/rotate_norm.cpp:17]   --->   Operation 23 'add' 'add_ln17' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_3 : Operation 24 [2/3] (1.05ns) (grouped into DSP with root node t1)   --->   "%mul_ln17_2 = mul i24 %sext_ln17_4, i24 %sext_ln17_5" [../src/rotate_norm.cpp:17]   --->   Operation 24 'mul' 'mul_ln17_2' <Predicate = true> <Delay = 1.05> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 4 <SV = 3> <Delay = 4.20>
+ST_4 : Operation 25 [1/2] (2.10ns) (root node of the DSP)   --->   "%add_ln17 = add i24 %mul_ln17_1, i24 %mul_ln17" [../src/rotate_norm.cpp:17]   --->   Operation 25 'add' 'add_ln17' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 26 [1/3] (0.00ns) (grouped into DSP with root node t1)   --->   "%mul_ln17_2 = mul i24 %sext_ln17_4, i24 %sext_ln17_5" [../src/rotate_norm.cpp:17]   --->   Operation 26 'mul' 'mul_ln17_2' <Predicate = true> <Delay = 0.00> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_4 : Operation 27 [2/2] (2.10ns) (root node of the DSP)   --->   "%t1 = add i24 %add_ln17, i24 %mul_ln17_2" [../src/rotate_norm.cpp:17]   --->   Operation 27 'add' 't1' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+
+State 5 <SV = 4> <Delay = 2.10>
+ST_5 : Operation 28 [1/1] (0.00ns)   --->   "%specpipeline_ln13 = specpipeline void @_ssdm_op_SpecPipeline, i32 3, i32 0, i32 0, i32 0, void @empty_11" [../src/rotate_norm.cpp:13]   --->   Operation 28 'specpipeline' 'specpipeline_ln13' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 29 [1/2] (2.10ns) (root node of the DSP)   --->   "%t1 = add i24 %add_ln17, i24 %mul_ln17_2" [../src/rotate_norm.cpp:17]   --->   Operation 29 'add' 't1' <Predicate = true> <Delay = 2.10> <CoreInst = "DSP48">   --->   Core 116 'DSP48' <Latency = 3> <II = 1> <Delay = 2.15> <IPBlock> <Opcode : '' 'add' 'sub' 'mul' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
+ST_5 : Operation 30 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i10 @_ssdm_op_PartSelect.i10.i24.i32.i32, i24 %t1, i32 14, i32 23" [../src/rotate_norm.cpp:21]   --->   Operation 30 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 31 [1/1] (0.00ns)   --->   "%ret_ln23 = ret i10 %trunc_ln" [../src/rotate_norm.cpp:23]   --->   Operation 31 'ret' 'ret_ln23' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.500ns.
+
+ <State 1>: 1.050ns
+The critical path consists of the following:
+	wire read operation ('i_n_0_0_val_read', ../src/rotate_norm.cpp:13) on port 'i_n_0_0_val' (../src/rotate_norm.cpp:13) [10]  (0.000 ns)
+	'mul' operation 24 bit of DSP[20] ('mul_ln17', ../src/rotate_norm.cpp:17) [16]  (1.050 ns)
+
+ <State 2>: 5.580ns
+The critical path consists of the following:
+	wire read operation ('i_n_0_1_val_read', ../src/rotate_norm.cpp:13) on port 'i_n_0_1_val' (../src/rotate_norm.cpp:13) [9]  (0.000 ns)
+	'mul' operation 24 bit ('mul_ln17_1', ../src/rotate_norm.cpp:17) [19]  (5.580 ns)
+
+ <State 3>: 2.100ns
+The critical path consists of the following:
+	'mul' operation 24 bit of DSP[20] ('mul_ln17', ../src/rotate_norm.cpp:17) [16]  (0.000 ns)
+	'add' operation 24 bit of DSP[20] ('add_ln17', ../src/rotate_norm.cpp:17) [20]  (2.100 ns)
+
+ <State 4>: 4.200ns
+The critical path consists of the following:
+	'add' operation 24 bit of DSP[20] ('add_ln17', ../src/rotate_norm.cpp:17) [20]  (2.100 ns)
+	'add' operation 24 bit of DSP[24] ('t1', ../src/rotate_norm.cpp:17) [24]  (2.100 ns)
+
+ <State 5>: 2.100ns
+The critical path consists of the following:
+	'add' operation 24 bit of DSP[24] ('t1', ../src/rotate_norm.cpp:17) [24]  (2.100 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

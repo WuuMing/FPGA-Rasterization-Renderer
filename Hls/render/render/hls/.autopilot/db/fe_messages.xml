@@ -1,0 +1,203 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=3" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=z_buffer type=ram_s2p" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=z_buffer complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=x_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=y_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/zbuffer.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="zbuffer" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/triangle.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="triangle" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=3" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/rotate_norm.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rotate_norm" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=3" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/rotate_move.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rotate_move" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-910" msg_severity="WARNING" msg_loc="../src/triangle.h:4:9" msg_body="'INT_WIDTH' macro redefined">
+        <args ClangWarningOption="macro-redefined"/>
+    </msg>
+    <msg msg_groups="" msg_id="207-71" msg_severity="INFO" msg_loc="/usr/include/limits.h:162:11" msg_body="previous definition is here">
+        <args/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=main_process" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=data_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=output_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=pic type=ram_s2p impl=bram" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=pic complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=IDLE_x_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=IDLE_y_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=3" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:106:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:184:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=x_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=y_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:190:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=zbuffer_in complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=render_result complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:194:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:199:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:230:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/main.cpp:260:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="main_process" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=3" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=x_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=y_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=valid_index complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=lut complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=lut complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/get_index.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="compute_indices" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/main.cpp:105:27" msg_body="Loop 'VITIS_LOOP_105_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_105_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/main.cpp:193:20" msg_body="Loop 'VITIS_LOOP_193_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_193_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/main.cpp:198:27" msg_body="Loop 'VITIS_LOOP_198_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_198_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/zbuffer.cpp:22:22" msg_body="Loop 'VITIS_LOOP_22_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_22_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/zbuffer.cpp:24:19" msg_body="Loop 'VITIS_LOOP_24_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_24_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/get_index.cpp:19:22" msg_body="Loop 'VITIS_LOOP_19_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_19_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../src/get_index.cpp:24:26" msg_body="Loop 'VITIS_LOOP_24_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_24_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/main.cpp:11:0" msg_body="Unrolling loop 'VITIS_LOOP_105_1' (../src/main.cpp:105:27) in function 'main_process' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/main.cpp:105:27" LoopName="VITIS_LOOP_105_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="../src/main.cpp:11:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_105_1' (../src/main.cpp:105:27) in function 'main_process' has been removed because the loop is unrolled completely">
+        <args LoopLoc="../src/main.cpp:105:27" LoopName="VITIS_LOOP_105_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/main.cpp:11:0" msg_body="Unrolling loop 'VITIS_LOOP_193_2' (../src/main.cpp:193:20) in function 'main_process' completely with a factor of 9">
+        <args Factor="9" LoopLoc="../src/main.cpp:193:20" LoopName="VITIS_LOOP_193_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/main.cpp:11:0" msg_body="Unrolling loop 'VITIS_LOOP_198_3' (../src/main.cpp:198:27) in function 'main_process' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/main.cpp:198:27" LoopName="VITIS_LOOP_198_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="../src/main.cpp:11:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_198_3' (../src/main.cpp:198:27) in function 'main_process' has been removed because the loop is unrolled completely">
+        <args LoopLoc="../src/main.cpp:198:27" LoopName="VITIS_LOOP_198_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/zbuffer.cpp:11:0" msg_body="Unrolling loop 'VITIS_LOOP_22_1' (../src/zbuffer.cpp:22:22) in function 'zbuffer' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/zbuffer.cpp:22:22" LoopName="VITIS_LOOP_22_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/zbuffer.cpp:11:0" msg_body="Unrolling loop 'VITIS_LOOP_24_2' (../src/zbuffer.cpp:24:19) in function 'zbuffer' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/zbuffer.cpp:24:19" LoopName="VITIS_LOOP_24_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/get_index.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_19_1' (../src/get_index.cpp:19:22) in function 'compute_indices' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/get_index.cpp:19:22" LoopName="VITIS_LOOP_19_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="../src/get_index.cpp:7:0" msg_body="Pipeline directive for loop 'VITIS_LOOP_19_1' (../src/get_index.cpp:19:22) in function 'compute_indices' has been removed because the loop is unrolled completely">
+        <args LoopLoc="../src/get_index.cpp:19:22" LoopName="VITIS_LOOP_19_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../src/get_index.cpp:7:0" msg_body="Unrolling loop 'VITIS_LOOP_24_2' (../src/get_index.cpp:24:26) in function 'compute_indices' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../src/get_index.cpp:24:26" LoopName="VITIS_LOOP_24_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/zbuffer.cpp:14:0" msg_body="Applying array_partition to '_ZZ7zbufferbP7ap_uintILi4EEPS_ILi7EES3_S_ILi9EE8ap_fixedILi18ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EEbE8z_buffer': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZZ7zbufferbP7ap_uintILi4EEPS_ILi7EES3_S_ILi9EE8ap_fixedILi18ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EEbE8z_buffer"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/main.cpp:15:0" msg_body="Applying array_partition to '_ZZ12main_process8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_S2_S2_S2_S2_S2_S2_S2_S_ILi19ELi10ELS0_5ELS1_3ELi0EES3_S3_9ap_ufixedILi12ELi3ELS0_5ELS1_3ELi0EES5_RN3hls6streamINS6_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS7_INS8_IS9_ILi24EELm0ELm0ELm0ELh56ELb0EEELi0EEEE3pic': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZZ12main_process8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_S2_S2_S2_S2_S2_S2_S2_S_ILi19ELi10ELS0_5ELS1_3ELi0EES3_S3_9ap_ufixedILi12ELi3ELS0_5ELS1_3ELi0EES5_RN3hls6streamINS6_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS7_INS8_IS9_ILi24EELm0ELm0ELm0ELh56ELb0EEELi0EEEE3pic"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="../src/get_index.cpp:21:38" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/main.cpp:22:20" msg_body="Applying array_partition to 'IDLE_x_index': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IDLE_x_index"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/main.cpp:23:20" msg_body="Applying array_partition to 'IDLE_y_index': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="IDLE_y_index"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/main.cpp:182:20" msg_body="Applying array_partition to 'x_index': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="x_index"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/main.cpp:183:20" msg_body="Applying array_partition to 'y_index': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="y_index"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/main.cpp:186:13" msg_body="Applying array_partition to 'valid_index': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="valid_index"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="../src/get_index.cpp:37:13" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="../src/main.cpp:107:2" msg_body="Automatically inlining function 'rotate_move(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
+        <args Callee="rotate_move(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File ../src/rotate_move.cpp Line 11 Column 0" Caller="main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File ../src/main.cpp Line 11 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="../src/main.cpp:171:38" msg_body="Automatically inlining function 'triangle(ap_int&lt;14&gt;, ap_int&lt;14&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, bool&amp;)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
+        <args Callee="triangle(ap_int&lt;14&gt;, ap_int&lt;14&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;26, 14, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, bool&amp;)" Callee-DebugLoc="File ../src/triangle.cpp Line 11 Column 0" Caller="main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File ../src/main.cpp Line 11 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="../src/main.cpp:187:9" msg_body="Automatically inlining function 'compute_indices(ap_uint&lt;9&gt;, ap_uint&lt;9&gt;, ap_uint&lt;7&gt;*, ap_uint&lt;7&gt;*, ap_uint&lt;4&gt;*)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
+        <args Callee="compute_indices(ap_uint&lt;9&gt;, ap_uint&lt;9&gt;, ap_uint&lt;7&gt;*, ap_uint&lt;7&gt;*, ap_uint&lt;4&gt;*)" Callee-DebugLoc="File ../src/get_index.cpp Line 7 Column 0" Caller="main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File ../src/main.cpp Line 11 Column 0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="../src/main.cpp:197:23" msg_body="Automatically inlining function 'zbuffer(bool, ap_uint&lt;4&gt;*, ap_uint&lt;7&gt;*, ap_uint&lt;7&gt;*, ap_uint&lt;9&gt;, ap_fixed&lt;18, 11, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, bool) (.16)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
+        <args Callee="zbuffer(bool, ap_uint&lt;4&gt;*, ap_uint&lt;7&gt;*, ap_uint&lt;7&gt;*, ap_uint&lt;9&gt;, ap_fixed&lt;18, 11, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, bool) (.16)" Callee-DebugLoc="File ../src/zbuffer.cpp Line 11 Column 0" Caller="main_process(ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;16, 2, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;19, 10, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_ufixed&lt;12, 3, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, hls::stream&lt;hls::axis&lt;ap_uint&lt;64&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;24&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File ../src/main.cpp Line 11 Column 0"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

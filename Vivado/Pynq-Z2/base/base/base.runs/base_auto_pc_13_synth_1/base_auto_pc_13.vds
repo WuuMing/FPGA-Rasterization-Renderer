@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Oct 22 23:04:02 2025
+# Process ID: 49949
+# Current directory: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_13_synth_1
+# Command line: vivado -log base_auto_pc_13.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_auto_pc_13.tcl
+# Log file: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_13_synth_1/base_auto_pc_13.vds
+# Journal file: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_13_synth_1/vivado.jou
+# Running On        :ubuntu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.10
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700HX
+# CPU Frequency     :2304.001 MHz
+# CPU Physical cores:16
+# CPU Logical cores :16
+# Host memory       :10377 MB
+# Swap memory       :2147 MB
+# Total Virtual     :12524 MB
+# Available Virtual :1514 MB
+#-----------------------------------------------------------
+source base_auto_pc_13.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1661.168 ; gain = 116.840 ; free physical = 601 ; free virtual = 1379
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wu/__PYNQ__/boards/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: base_auto_pc_13
+Command: synth_design -top base_auto_pc_13 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.

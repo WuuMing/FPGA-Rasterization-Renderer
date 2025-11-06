@@ -1,0 +1,44 @@
+{
+  "0": {
+    "basicblocks": 323,
+    "calls": "2 1",
+    "file": "main.cpp",
+    "fileloc": 3,
+    "instructions": 1765,
+    "loads": {
+      "G": 20,
+      "L": 5
+    },
+    "name": "main_process",
+    "stores": {
+      "G": 31,
+      "L": 36
+    },
+    "total_instructions": 1852
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "rotate_norm.cpp",
+    "fileloc": 4,
+    "instructions": 31,
+    "name": "rotate_norm",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 31
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "zbuffer.cpp",
+    "fileloc": 3,
+    "instructions": 56,
+    "name": "zbuffer",
+    "stores": {
+      "G": 9,
+      "L": 1
+    },
+    "total_instructions": 56
+  }
+}

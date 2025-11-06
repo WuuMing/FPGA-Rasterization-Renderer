@@ -1,0 +1,4 @@
+2 warnings and 1 error generated.
+Error while processing /home/wu/__PYNQ__/hls_ok/render/render/hls/.autopilot/db/main.pp.0.cpp.
+clang-tidy applied 19 of 19 suggested fixes.
+Suppressed 2 warnings (2 with check filters).

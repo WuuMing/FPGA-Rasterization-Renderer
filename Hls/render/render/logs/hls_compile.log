@@ -1,0 +1,501 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/wu/__PYNQ__/hls_ok/render/render/render.hlscompile_summary, at Mon Oct 27 17:27:19 2025
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir /home/wu/__PYNQ__/hls_ok/render/render -config /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg -cmdlineconfig /home/wu/__PYNQ__/hls_ok/render/render/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Mon Oct 27 17:27:20 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'wu' on host 'ubuntu' (Linux_x86_64 version 6.11.0-13-generic) on Mon Oct 27 17:27:21 CST 2025
+INFO: [HLS 200-10] On os Ubuntu 24.10
+INFO: [HLS 200-10] In directory '/home/wu/__PYNQ__/hls_ok/render'
+INFO: [HLS 200-2005] Using work_dir /home/wu/__PYNQ__/hls_ok/render/render 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/get_index.cpp' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/get_index.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/get_index.h' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/get_index.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/main.cpp' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/main.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/main.h' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/main.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/rotate_move.cpp' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/rotate_move.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/rotate_move.h' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/rotate_move.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/rotate_norm.cpp' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(15)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/rotate_norm.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/rotate_norm.h' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(16)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/rotate_norm.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/triangle.cpp' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(17)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/triangle.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/triangle.h' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(18)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/triangle.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/zbuffer.cpp' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(19)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/zbuffer.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=/home/wu/__PYNQ__/hls_ok/src/zbuffer.h' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(20)
+INFO: [HLS 200-10] Adding design file '/home/wu/__PYNQ__/hls_ok/src/zbuffer.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=main_process' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(21)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xc7z020clg400-1' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying ini 'clock=100MHz' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=25%' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(8)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.5ns.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from /home/wu/__PYNQ__/hls_ok/render/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1.3 seconds. CPU system time: 0.77 seconds. Elapsed time: 1.85 seconds; current allocated memory: 549.324 MB.
+INFO: [HLS 200-10] Analyzing design file '../src/zbuffer.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../src/triangle.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../src/rotate_norm.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../src/rotate_move.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file '../src/main.cpp' ... 
+WARNING: [HLS 207-910] 'INT_WIDTH' macro redefined (../src/triangle.h:4:9)
+INFO: [HLS 207-71] previous definition is here (/usr/include/limits.h:162:11)
+INFO: [HLS 200-10] Analyzing design file '../src/get_index.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 12.22 seconds. CPU system time: 4.32 seconds. Elapsed time: 16.57 seconds; current allocated memory: 551.852 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 34,129 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 5,338 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,216 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,103 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,067 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,685 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,323 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,323 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,323 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,443 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,355 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,234 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,159 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,884 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,852 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,871 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/wu/__PYNQ__/hls_ok/render/render/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_105_1' is marked as complete unroll implied by the pipeline pragma (../src/main.cpp:105:27)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_193_2' is marked as complete unroll implied by the pipeline pragma (../src/main.cpp:193:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_198_3' is marked as complete unroll implied by the pipeline pragma (../src/main.cpp:198:27)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_22_1' is marked as complete unroll implied by the pipeline pragma (../src/zbuffer.cpp:22:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_24_2' is marked as complete unroll implied by the pipeline pragma (../src/zbuffer.cpp:24:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_19_1' is marked as complete unroll implied by the pipeline pragma (../src/get_index.cpp:19:22)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_24_2' is marked as complete unroll implied by the pipeline pragma (../src/get_index.cpp:24:26)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_105_1' (../src/main.cpp:105:27) in function 'main_process' completely with a factor of 3 (../src/main.cpp:11:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'VITIS_LOOP_105_1' (../src/main.cpp:105:27) in function 'main_process' has been removed because the loop is unrolled completely (../src/main.cpp:11:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_193_2' (../src/main.cpp:193:20) in function 'main_process' completely with a factor of 9 (../src/main.cpp:11:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_198_3' (../src/main.cpp:198:27) in function 'main_process' completely with a factor of 3 (../src/main.cpp:11:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'VITIS_LOOP_198_3' (../src/main.cpp:198:27) in function 'main_process' has been removed because the loop is unrolled completely (../src/main.cpp:11:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_22_1' (../src/zbuffer.cpp:22:22) in function 'zbuffer' completely with a factor of 3 (../src/zbuffer.cpp:11:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_24_2' (../src/zbuffer.cpp:24:19) in function 'zbuffer' completely with a factor of 3 (../src/zbuffer.cpp:11:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_19_1' (../src/get_index.cpp:19:22) in function 'compute_indices' completely with a factor of 3 (../src/get_index.cpp:7:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'VITIS_LOOP_19_1' (../src/get_index.cpp:19:22) in function 'compute_indices' has been removed because the loop is unrolled completely (../src/get_index.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_24_2' (../src/get_index.cpp:24:26) in function 'compute_indices' completely with a factor of 3 (../src/get_index.cpp:7:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ7zbufferbP7ap_uintILi4EEPS_ILi7EES3_S_ILi9EE8ap_fixedILi18ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EEbE8z_buffer': Complete partitioning on dimension 1. (../src/zbuffer.cpp:14:0)
+INFO: [HLS 214-248] Applying array_partition to 'lut': Complete partitioning on dimension 1. Complete partitioning on dimension 2.
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12main_process8ap_fixedILi16ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EES2_S2_S2_S2_S2_S2_S2_S2_S_ILi19ELi10ELS0_5ELS1_3ELi0EES3_S3_9ap_ufixedILi12ELi3ELS0_5ELS1_3ELi0EES5_RN3hls6streamINS6_4axisI7ap_uintILi64EELm0ELm0ELm0ELh56ELb0EEELi0EEERNS7_INS8_IS9_ILi24EELm0ELm0ELm0ELh56ELb0EEELi0EEEE3pic': Complete partitioning on dimension 1. (../src/main.cpp:15:0)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (../src/get_index.cpp:21:38)
+INFO: [HLS 214-248] Applying array_partition to 'IDLE_x_index': Complete partitioning on dimension 1. (../src/main.cpp:22:20)
+INFO: [HLS 214-248] Applying array_partition to 'IDLE_y_index': Complete partitioning on dimension 1. (../src/main.cpp:23:20)
+INFO: [HLS 214-248] Applying array_partition to 'x_index': Complete partitioning on dimension 1. (../src/main.cpp:182:20)
+INFO: [HLS 214-248] Applying array_partition to 'y_index': Complete partitioning on dimension 1. (../src/main.cpp:183:20)
+INFO: [HLS 214-248] Applying array_partition to 'valid_index': Complete partitioning on dimension 1. (../src/main.cpp:186:13)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (../src/get_index.cpp:37:13)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< write_loop> at ../src/main.cpp:222:9 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_268_13> at ../src/main.cpp:268:32 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_253_10> at ../src/main.cpp:253:32 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_238_7> at ../src/main.cpp:238:31 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_274_14> at ../src/main.cpp:274:28 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< reset_loop> at ../src/main.cpp:28:3 
+INFO: [HLS 214-364] Automatically inlining function 'rotate_move(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>&)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (../src/main.cpp:107:2)
+INFO: [HLS 214-364] Automatically inlining function 'triangle(ap_int<14>, ap_int<14>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<26, 14, (ap_q_mode)5, (ap_o_mode)3, 0>, bool&)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (../src/main.cpp:171:38)
+INFO: [HLS 214-364] Automatically inlining function 'compute_indices(ap_uint<9>, ap_uint<9>, ap_uint<7>*, ap_uint<7>*, ap_uint<4>*)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (../src/main.cpp:187:9)
+INFO: [HLS 214-364] Automatically inlining function 'zbuffer(bool, ap_uint<4>*, ap_uint<7>*, ap_uint<7>*, ap_uint<9>, ap_fixed<18, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, bool) (.16)' to improve effectiveness of pipeline pragma in function 'main_process(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<19, 10, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_ufixed<12, 3, (ap_q_mode)5, (ap_o_mode)3, 0>, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)' (../src/main.cpp:197:23)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.84 seconds. CPU system time: 1.13 seconds. Elapsed time: 6.97 seconds; current allocated memory: 553.824 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 553.824 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 556.746 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+WARNING: [SYNCHK 200-23] ../src/zbuffer.cpp:36: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 561.004 MB.
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic' in function 'main_process' (../src/main.cpp:37:6).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.9' in function 'main_process' (../src/main.cpp:37:23).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.10' in function 'main_process' (../src/main.cpp:37:40).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.11' in function 'main_process' (../src/main.cpp:38:6).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.12' in function 'main_process' (../src/main.cpp:38:23).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.13' in function 'main_process' (../src/main.cpp:38:40).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.14' in function 'main_process' (../src/main.cpp:39:6).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.15' in function 'main_process' (../src/main.cpp:39:23).
+WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'main_process(ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<16, 2, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_fixed<19, 10, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, ap_ufixed<12, 3, 5, 3, 0>, stream<axis<ap_uint<64>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&, stream<axis<ap_uint<24>, 0ul, 0ul, 0ul, (unsigned char)56, false>, 0>&)pic.16' in function 'main_process' (../src/main.cpp:39:40).
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../src/main.cpp:46:9) to (../src/zbuffer.cpp:32:22) in function 'main_process'... converting 225 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'main_process' (../src/zbuffer.cpp:3:40)...155 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.42 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.45 seconds; current allocated memory: 592.340 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_228_5'(../src/main.cpp:228:31) and 'VITIS_LOOP_229_6'(../src/main.cpp:229:35) in function 'main_process' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_243_8'(../src/main.cpp:243:31) and 'VITIS_LOOP_244_9'(../src/main.cpp:244:35) in function 'main_process' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_258_11'(../src/main.cpp:258:32) and 'VITIS_LOOP_259_12'(../src/main.cpp:259:36) in function 'main_process' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_228_5' (../src/main.cpp:228:31) in function 'main_process'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_243_8' (../src/main.cpp:243:31) in function 'main_process'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_258_11' (../src/main.cpp:258:32) in function 'main_process'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.28 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.31 seconds; current allocated memory: 699.160 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'main_process' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'zbuffer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'zbuffer'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, function 'zbuffer'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.06 seconds; current allocated memory: 699.160 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 699.160 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_reset_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'reset_loop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'reset_loop'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 699.160 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 699.160 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'rotate_norm' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=t1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln17) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining function 'rotate_norm'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 3, Final II = 3, Depth = 5, function 'rotate_norm'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 699.160 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 699.160 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_process_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln34) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln33) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=sub_ln32) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=tcolor) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln16_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln16_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln15_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln15_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln14_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln14_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln16_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln16_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln15_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln15_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln14_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln14_3) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln16_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln16) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln15_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln15) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln14_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln14) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'process_loop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 3, Final II = 3, Depth = 38, loop 'process_loop'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.66 seconds. CPU system time: 0.05 seconds. Elapsed time: 0.71 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.09 seconds. CPU system time: 0.08 seconds. Elapsed time: 0.17 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_write_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'write_loop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'write_loop'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.09 seconds. Elapsed time: 0.12 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_228_5_VITIS_LOOP_229_6'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_228_5_VITIS_LOOP_229_6'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_238_7' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_238_7'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_238_7'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_243_8_VITIS_LOOP_244_9'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_243_8_VITIS_LOOP_244_9'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_253_10' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_253_10'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_253_10'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.01 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_258_11_VITIS_LOOP_259_12'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_258_11_VITIS_LOOP_259_12'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_268_13' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_268_13'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_268_13'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process_Pipeline_VITIS_LOOP_274_14' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_274_14'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_274_14'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'main_process' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 724.762 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'zbuffer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'zbuffer'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.01 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.04 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_reset_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_reset_loop'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.04 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'rotate_norm' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'rotate_norm' pipeline 'rotate_norm' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_10s_24ns_24_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_16s_10s_24s_24_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_10s_24_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'rotate_norm'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.06 seconds; current allocated memory: 724.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_process_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_process_loop' pipeline 'process_loop' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_7_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_10s_8ns_14ns_18_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_18ns_16s_33s_35_4_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_18ns_16s_34s_35_4_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_mulsub_16s_16s_28s_28_4_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_12ns_22_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_16s_16s_28_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_18ns_16s_34_1_1': 9 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_25s_12ns_35_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_27s_29ns_55_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_28s_30ns_57_2_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitodp_32s_64_6_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_2_1_1': 6 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_16_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'urem_9ns_3ns_2_13_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_process_loop'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.21 seconds; current allocated memory: 726.793 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_write_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_write_loop' pipeline 'write_loop' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_write_loop'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.2 seconds. CPU system time: 0.24 seconds. Elapsed time: 0.44 seconds; current allocated memory: 754.613 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6' pipeline 'VITIS_LOOP_228_5_VITIS_LOOP_229_6' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.05 seconds; current allocated memory: 754.613 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_238_7' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_238_7' pipeline 'VITIS_LOOP_238_7' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_238_7'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.05 seconds; current allocated memory: 754.613 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9' pipeline 'VITIS_LOOP_243_8_VITIS_LOOP_244_9' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.04 seconds; current allocated memory: 754.613 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_253_10' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_253_10' pipeline 'VITIS_LOOP_253_10' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_253_10'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.05 seconds; current allocated memory: 755.031 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12' pipeline 'VITIS_LOOP_258_11_VITIS_LOOP_259_12' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.04 seconds; current allocated memory: 756.254 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_268_13' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_268_13' pipeline 'VITIS_LOOP_268_13' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_268_13'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.05 seconds; current allocated memory: 757.191 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process_Pipeline_VITIS_LOOP_274_14' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'main_process_Pipeline_VITIS_LOOP_274_14' pipeline 'VITIS_LOOP_274_14' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process_Pipeline_VITIS_LOOP_274_14'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.05 seconds; current allocated memory: 758.395 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'main_process' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a11' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a12' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a13' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a21' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a22' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a23' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a31' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a32' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_a33' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_p1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_p2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/i_p3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/y_scale' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/z_scale' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/data_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/data_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/data_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/data_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/output_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/output_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/output_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'main_process/output_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'main_process' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'state' is power-on initialization.
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_8_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_acud' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_7_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_adEe' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_6_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_aeOg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_5_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_afYi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_4_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ag8j' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_3_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ahbi' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_2_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_aibs' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_f_1_RAM_S2P_BRAM_1R1W' to 'main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ajbC' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_RAM_S2PlbW' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_RAM_S2Pmb6' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_RAM_S2Pncg' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_RAM_S2Pocq' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_RAM_S2PpcA' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_RAM_S2PqcK' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_RAM_S2PrcU' due to the length limit 80
+INFO: [SYN 201-210] Renamed object name 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_RAM_S2P_BRAM_1R1W' to 'zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_RAM_S2P_Bsc4' due to the length limit 80
+WARNING: [RTGEN 206-101] Register 'last_signal' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'main_process'.
+INFO: [RTMG 210-278] Implementing memory 'main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM' using block RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0.08 seconds. Elapsed time: 0.15 seconds; current allocated memory: 759.070 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.15 seconds. CPU system time: 0.08 seconds. Elapsed time: 0.23 seconds; current allocated memory: 762.383 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.53 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.58 seconds; current allocated memory: 779.879 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for main_process.
+INFO: [VLOG 209-307] Generating Verilog RTL for main_process.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 134.35 MHz
+INFO: [HLS 200-112] Total CPU user time: 19.53 seconds. Total CPU system time: 7.69 seconds. Total elapsed time: 30.07 seconds; peak allocated memory: 779.879 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 33s

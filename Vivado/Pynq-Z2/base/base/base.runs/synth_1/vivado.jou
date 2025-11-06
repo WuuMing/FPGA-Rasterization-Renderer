@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Nov  5 11:03:40 2025
+# Process ID: 6942
+# Current directory: /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/synth_1
+# Command line: vivado -log base_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_wrapper.tcl
+# Log file: /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/synth_1/base_wrapper.vds
+# Journal file: /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/synth_1/vivado.jou
+# Running On        :ubuntu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.10
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700HX
+# CPU Frequency     :2304.005 MHz
+# CPU Physical cores:16
+# CPU Logical cores :16
+# Host memory       :11434 MB
+# Swap memory       :30064 MB
+# Total Virtual     :41499 MB
+# Available Virtual :37872 MB
+#-----------------------------------------------------------
+source base_wrapper.tcl -notrace

@@ -1,0 +1,17 @@
+{
+  "workspaceRoot": "/home/wu/__PYNQ__/hls_ok",
+  "mapping": {
+    "src/main.cpp": "render",
+    "src/zbuffer.h": "render",
+    "src/rotate_norm.cpp": "render",
+    "src/get_index.cpp": "render",
+    "src/rotate_move.h": "render",
+    "src/rotate_move.cpp": "render",
+    "src/rotate_norm.h": "render",
+    "src/main.h": "render",
+    "src/triangle.h": "render",
+    "src/get_index.h": "render",
+    "src/zbuffer.cpp": "render",
+    "src/triangle.cpp": "render"
+  }
+}

@@ -1,0 +1,900 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 25 16:11:55 2025
+# Process ID: 167629
+# Current directory: /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1
+# Command line: vivado -log main_process_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_process_0.tcl
+# Log file: /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/main_process_0.vds
+# Journal file: /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/vivado.jou
+# Running On        :ubuntu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.10
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700HX
+# CPU Frequency     :2304.002 MHz
+# CPU Physical cores:16
+# CPU Logical cores :16
+# Host memory       :11434 MB
+# Swap memory       :30064 MB
+# Total Virtual     :41499 MB
+# Available Virtual :36744 MB
+#-----------------------------------------------------------
+source main_process_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wu/__PYNQ__/board_grey/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: main_process_0
+Command: synth_design -top main_process_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 167675
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2442.086 ; gain = 154.691 ; free physical = 1512 ; free virtual = 33555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main_process_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/synth/main_process_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'main_process' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb.v:7]
+INFO: [Synth 8-3876] $readmem data file './main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb.dat' is read successfully [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_ap_fixed_abkb.v:7]
+INFO: [Synth 8-6157] synthesizing module 'main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM.v:7]
+INFO: [Synth 8-3876] $readmem data file './main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM.dat' is read successfully [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_RAM_S2PkbM.v:7]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_reset_loop' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_reset_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_zbuffer' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_zbuffer.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_zbuffer' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_zbuffer.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_flow_control_loop_pipe_sequential_init' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_flow_control_loop_pipe_sequential_init' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_reset_loop' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_reset_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_process_loop' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_rotate_norm' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_rotate_norm.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_16s_10s_24_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_16s_10s_24_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_16s_10s_24_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_16s_10s_24_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_16s_10s_24s_24_4_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_16s_10s_24s_24_4_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_16s_10s_24ns_24_4_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_16s_10s_24ns_24_4_1_DSP48_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_16s_10s_24ns_24_4_1_DSP48_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_16s_10s_24ns_24_4_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_rotate_norm' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_rotate_norm.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_dadd_64ns_64ns_64_7_full_dsp_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_dadd_64ns_64ns_64_7_full_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/ip/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip.v:53]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:81887]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (0#1) [/tools/Xilinx/Vivado/2024.1/scripts/rt/data/unisim_comp.v:81887]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/ip/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_dadd_64ns_64ns_64_7_full_dsp_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_dadd_64ns_64ns_64_7_full_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_sitodp_32s_64_6_no_dsp_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sitodp_32s_64_6_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_sitodp_32s_64_6_no_dsp_1_ip' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/ip/main_process_sitodp_32s_64_6_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_sitodp_32s_64_6_no_dsp_1_ip' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/ip/main_process_sitodp_32s_64_6_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_sitodp_32s_64_6_no_dsp_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sitodp_32s_64_6_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_27s_29ns_55_2_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_27s_29ns_55_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_27s_29ns_55_2_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_27s_29ns_55_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_28s_30ns_57_2_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_28s_30ns_57_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_28s_30ns_57_2_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_28s_30ns_57_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_18ns_16s_34_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_18ns_16s_34_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_18ns_16s_34_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_18ns_16s_34_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_25s_12ns_35_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_25s_12ns_35_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_25s_12ns_35_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_25s_12ns_35_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_urem_9ns_3ns_2_13_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:68]
+INFO: [Synth 8-6157] synthesizing module 'main_process_urem_9ns_3ns_2_13_1_divider' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_urem_9ns_3ns_2_13_1_divider' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_urem_9ns_3ns_2_13_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:68]
+INFO: [Synth 8-6157] synthesizing module 'main_process_sparsemux_9_3_16_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sparsemux_9_3_16_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_sparsemux_9_3_16_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sparsemux_9_3_16_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_16s_16s_28_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_16s_16s_28_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_16s_16s_28_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_16s_16s_28_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_sparsemux_7_2_2_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sparsemux_7_2_2_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_sparsemux_7_2_2_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sparsemux_7_2_2_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mul_10s_12ns_22_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_10s_12ns_22_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mul_10s_12ns_22_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_10s_12ns_22_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_18ns_16s_34s_35_4_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_18ns_16s_34s_35_4_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_18ns_16s_33s_35_4_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_18ns_16s_33s_35_4_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_10s_8ns_14ns_18_4_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_muladd_10s_8ns_14ns_18_4_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_mulsub_16s_16s_28s_28_4_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:55]
+INFO: [Synth 8-6157] synthesizing module 'main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_mac_mulsub_16s_16s_28s_28_4_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_process_loop' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_write_loop' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_write_loop.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_write_loop' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_write_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_sparsemux_7_2_8_1_1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sparsemux_7_2_8_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_sparsemux_7_2_8_1_1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_sparsemux_7_2_8_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_228_5_VITIS_LOOP_229_6.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_274_14' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_274_14.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_274_14' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_274_14.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_238_7' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_238_7.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_238_7' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_238_7.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_243_8_VITIS_LOOP_244_9.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_253_10' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_253_10.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_253_10' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_253_10.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_258_11_VITIS_LOOP_259_12.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_268_13' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_268_13.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_main_process_Pipeline_VITIS_LOOP_268_13' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_VITIS_LOOP_268_13.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_regslice_both' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_regslice_both' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_regslice_both__parameterized0' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_regslice_both__parameterized0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_regslice_both__parameterized1' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_regslice_both__parameterized1' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_regslice_both__parameterized2' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_regslice_both__parameterized2' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'main_process_regslice_both__parameterized3' [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_regslice_both__parameterized3' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'main_process_0' (0#1) [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/synth/main_process_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element loop[8].divisor_tmp_reg[9] was removed.  [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:52]
+WARNING: [Synth 8-6014] Unused sequential element quot_reg was removed.  [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:122]
+WARNING: [Synth 8-7129] Port rst in module main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module main_process_urem_9ns_3ns_2_13_1_divider is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module main_process_mul_28s_30ns_57_2_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset in module main_process_mul_27s_29ns_55_2_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized11 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized93 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized93 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized93 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized93 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized93 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[11] in module flt_dec_op__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[10] in module flt_dec_op__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[9] in module flt_dec_op__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[8] in module flt_dec_op__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DIVIDE_BY_ZERO_IN in module flt_dec_op__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized89 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized89 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized89 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[30] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[29] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[28] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[27] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[26] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[25] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[24] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[23] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[22] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[21] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[20] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[19] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[18] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[17] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[16] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[15] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[14] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[13] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[12] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[10] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[9] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[8] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[7] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[6] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[5] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[4] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[3] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[2] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[1] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[0] in module fix_to_flt_conv_exp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized104 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized104 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized104 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized104 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized104 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port B[26] in module carry_chain__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized102 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized102 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized102 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized102 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized102 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port NORMALIZE[1] in module flt_round_bit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FIXED_POINT in module flt_round_bit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FIX_MANT_SIGN in module flt_round_bit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SIGN in module flt_round_bit__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_9_viv__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_9_viv__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_9_viv__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_9_viv__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_9_viv__parameterized63 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2670.023 ; gain = 382.629 ; free physical = 1254 ; free virtual = 33302
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2675.961 ; gain = 388.566 ; free physical = 1254 ; free virtual = 33302
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2675.961 ; gain = 388.566 ; free physical = 1254 ; free virtual = 33302
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2681.898 ; gain = 0.000 ; free physical = 1254 ; free virtual = 33302
+INFO: [Netlist 29-17] Analyzing 449 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/constraints/main_process_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/constraints/main_process_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2745.930 ; gain = 0.000 ; free physical = 1254 ; free virtual = 33301
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 35 instances were transformed.
+  FDE => FDRE: 35 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2745.930 ; gain = 0.000 ; free physical = 1254 ; free virtual = 33301
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2745.930 ; gain = 458.535 ; free physical = 1239 ; free virtual = 33287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2753.934 ; gain = 466.539 ; free physical = 1239 ; free virtual = 33287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2753.934 ; gain = 466.539 ; free physical = 1239 ; free virtual = 33287
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[8].remd_tmp_reg[9]' and it is trimmed from '9' to '2' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[8].dividend_tmp_reg[9]' and it is trimmed from '9' to '2' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[7].remd_tmp_reg[8]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[6].remd_tmp_reg[7]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[5].remd_tmp_reg[6]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[4].remd_tmp_reg[5]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[3].remd_tmp_reg[4]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[2].remd_tmp_reg[3]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[1].remd_tmp_reg[2]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[0].remd_tmp_reg[1]' and it is trimmed from '9' to '8' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_urem_9ns_3ns_2_13_1.v:51]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln162_reg_8151_reg' and it is trimmed from '55' to '52' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3723]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln23_1_reg_7911_reg' and it is trimmed from '21' to '19' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3390]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln23_reg_7863_reg' and it is trimmed from '21' to '19' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3392]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln23_2_reg_7928_reg' and it is trimmed from '21' to '19' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3391]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln163_reg_7431_reg' and it is trimmed from '57' to '56' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3339]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln35_1_reg_8047_reg' and it is trimmed from '21' to '19' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3577]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln35_reg_8030_reg' and it is trimmed from '21' to '19' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3579]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln35_2_reg_8064_reg' and it is trimmed from '21' to '19' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3578]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_ln164_reg_7442_reg' and it is trimmed from '57' to '56' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3340]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main_process_regslice_both'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main_process_regslice_both__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main_process_regslice_both__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main_process_regslice_both__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main_process_regslice_both__parameterized3'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main_process_regslice_both'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main_process_regslice_both__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main_process_regslice_both__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main_process_regslice_both__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main_process_regslice_both__parameterized3'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2753.934 ; gain = 466.539 ; free physical = 1235 ; free virtual = 33286
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/NORM/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/NORM/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/NORM/ROUND/EXP_INC_DELAY' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/NORM/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/dadd_64ns_64ns_64_7_full_dsp_1_U42/main_process_dadd_64ns_64ns_64_7_full_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized3) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized3) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized4) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/sitodp_32s_64_6_no_dsp_1_U43/main_process_sitodp_32s_64_6_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/mul_18ns_16s_34_1_1_U50' (main_process_mul_18ns_16s_34_1_1) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/mul_18ns_16s_34_1_1_U53'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/mul_18ns_16s_34_1_1_U51' (main_process_mul_18ns_16s_34_1_1) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/mul_18ns_16s_34_1_1_U54'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/mul_18ns_16s_34_1_1_U52' (main_process_mul_18ns_16s_34_1_1) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/mul_18ns_16s_34_1_1_U55'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/mac_muladd_18ns_16s_33s_35_4_1_U87' (main_process_mac_muladd_18ns_16s_33s_35_4_1) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/mac_muladd_18ns_16s_33s_35_4_1_U92'
+INFO: [Synth 8-223] decloning instance 'inst/grp_main_process_Pipeline_process_loop_fu_341/mac_muladd_18ns_16s_33s_35_4_1_U89' (main_process_mac_muladd_18ns_16s_33s_35_4_1) to 'inst/grp_main_process_Pipeline_process_loop_fu_341/mac_muladd_18ns_16s_33s_35_4_1_U94'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_16s_10s_24ns_24_4_1_U32/main_process_mac_muladd_16s_10s_24ns_24_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '24' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_16s_10s_24ns_24_4_1_U32/main_process_mac_muladd_16s_10s_24ns_24_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '24' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_16s_10s_24s_24_4_1_U31/main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '24' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_16s_10s_24s_24_4_1_U31/main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '24' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_16s_10s_24ns_24_4_1_U32/main_process_mac_muladd_16s_10s_24ns_24_4_1_DSP48_0_U/a_reg_reg' and it is trimmed from '25' to '24' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24ns_24_4_1.v:35]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_16s_10s_24s_24_4_1_U31/main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0_U/a_reg_reg' and it is trimmed from '25' to '24' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_16s_10s_24s_24_4_1.v:35]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_mulsub_16s_16s_28s_28_4_1_U101/main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '28' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_mulsub_16s_16s_28s_28_4_1_U101/main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '28' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_mulsub_16s_16s_28s_28_4_1_U100/main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '28' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_mulsub_16s_16s_28s_28_4_1_U100/main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '28' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_28s_30ns_57_2_1_U46/buff0_reg' and it is trimmed from '57' to '56' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_28s_30ns_57_2_1.v:60]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U90/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_mulsub_16s_16s_28s_28_4_1_U102/main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '28' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_mulsub_16s_16s_28s_28_4_1_U102/main_process_mac_mulsub_16s_16s_28s_28_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '28' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_mulsub_16s_16s_28s_28_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U95/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_28s_30ns_57_2_1_U45/buff0_reg' and it is trimmed from '57' to '56' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_28s_30ns_57_2_1.v:60]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U88/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U93/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mul_27s_29ns_55_2_1_U44/buff0_reg' and it is trimmed from '55' to '52' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mul_27s_29ns_55_2_1.v:60]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U86/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U91/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U85/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U83/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U81/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U81/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U83/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U85/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U86/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U88/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_34s_35_4_1_U90/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_34s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U89/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U89/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U87/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U87/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U84/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U84/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U82/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U82/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U99/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U99/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U97/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U97/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U98/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_18ns_16s_33s_35_4_1_U98/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '35' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_18ns_16s_33s_35_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a12_cast_cast_reg_7083_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3316]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a22_cast_cast_reg_7056_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3319]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a32_cast_cast_reg_7029_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3322]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_10s_8ns_14ns_18_4_1_U96/main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '44' to '18' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_10s_8ns_14ns_18_4_1_U96/main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '43' to '18' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_10s_8ns_14ns_18_4_1_U96/main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0_U/a_reg_reg' and it is trimmed from '25' to '18' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_mac_muladd_10s_8ns_14ns_18_4_1.v:35]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a13_cast_cast_reg_7076_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3317]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a21_cast_cast_reg_7062_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3318]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a23_cast_cast_reg_7049_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3320]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a31_cast_cast_reg_7035_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3321]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a33_cast_cast_reg_7022_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3323]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shl_i_i16_i326_i_cast_cast_reg_7042_reg' and it is trimmed from '35' to '33' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3350]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sext_ln45_cast_reg_7015_reg' and it is trimmed from '35' to '33' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3349]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shl_i_i16_i609_i_cast_cast_reg_7069_reg' and it is trimmed from '35' to '33' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3351]
+WARNING: [Synth 8-3936] Found unconnected internal register 'i_a11_cast_cast_reg_7089_reg' and it is trimmed from '34' to '16' bits. [/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.gen/sources_1/ip/main_process_0_4/hdl/verilog/main_process_main_process_Pipeline_process_loop.v:3315]
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[47]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[46]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[45]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[44]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[43]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[42]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[41]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[40]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[39]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[38]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[37]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[36]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[35]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[34]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[33]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[32]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[31]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[30]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[29]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[28]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[27]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[26]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[25]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[24]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[23]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[22]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[21]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[20]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[19]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[18]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[17]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[47]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[46]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[45]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[44]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[43]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[42]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[41]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[40]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[39]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[38]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[37]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[36]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[35]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[34]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[33]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[32]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[31]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[30]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[29]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[28]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[27]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[26]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[25]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[24]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[23]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[22]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[21]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[20]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[19]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[18]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U46/buff0_reg[17]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[47]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[46]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[45]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[44]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[43]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[42]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[41]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[40]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[39]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[38]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[37]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[36]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[35]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[34]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[33]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[32]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[31]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[30]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[29]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[28]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[27]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[26]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[25]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[24]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[23]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[22]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[21]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[20]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[19]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[18]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[17]) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[47]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[46]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[45]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[44]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[43]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[42]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_28s_30ns_57_2_1_U45/buff0_reg[41]__0) is unused and will be removed from module main_process_main_process_Pipeline_process_loop.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 2769.941 ; gain = 482.547 ; free physical = 1239 ; free virtual = 33290
+---------------------------------------------------------------------------------
+ Sort Area is  mul_ln34_reg_7858_reg_1d : 0 0 : 1997 4579 : Used 1 time 0
+ Sort Area is  mul_ln34_reg_7858_reg_1d : 0 1 : 2582 4579 : Used 1 time 0
+ Sort Area is  mul_ln32_reg_7799_reg_44 : 0 0 : 1997 4545 : Used 1 time 0
+ Sort Area is  mul_ln32_reg_7799_reg_44 : 0 1 : 2548 4545 : Used 1 time 0
+ Sort Area is  mul_ln33_reg_7804_reg_42 : 0 0 : 1997 4545 : Used 1 time 0
+ Sort Area is  mul_ln33_reg_7804_reg_42 : 0 1 : 2548 4545 : Used 1 time 0
+ Sort Area is  mac_muladd_16s_10s_24s_24_4_1_U31/main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0_U/m_reg_reg_0 : 0 0 : 1351 4024 : Used 1 time 0
+ Sort Area is  mac_muladd_16s_10s_24s_24_4_1_U31/main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0_U/m_reg_reg_0 : 0 1 : 1199 4024 : Used 1 time 0
+ Sort Area is  mac_muladd_16s_10s_24s_24_4_1_U31/main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0_U/m_reg_reg_0 : 0 2 : 1474 4024 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U45/tmp_product_2e : 0 0 : 1614 3502 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U45/tmp_product_2e : 0 1 : 1888 3502 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U46/tmp_product_22 : 0 0 : 1614 3502 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U46/tmp_product_22 : 0 1 : 1888 3502 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U97/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_39 : 0 0 : 3361 3361 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U98/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_35 : 0 0 : 3361 3361 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U99/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_3b : 0 0 : 3361 3361 : Used 1 time 0
+ Sort Area is  mul_27s_29ns_55_2_1_U44/tmp_product_3c : 0 0 : 1636 3348 : Used 1 time 0
+ Sort Area is  mul_27s_29ns_55_2_1_U44/tmp_product_3c : 0 1 : 1712 3348 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U87/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_17 : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U89/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_12 : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U86/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_34 : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U88/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_2c : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U90/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_20 : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U91/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_3a : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U93/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_16 : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U95/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_10 : 0 0 : 3336 3336 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U82/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_1b : 0 0 : 3319 3319 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_33s_35_4_1_U84/main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0_U/p_reg_reg_a : 0 0 : 3319 3319 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U81/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_38 : 0 0 : 3285 3285 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U83/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_1a : 0 0 : 3285 3285 : Used 1 time 0
+ Sort Area is  mac_muladd_18ns_16s_34s_35_4_1_U85/main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0_U/p_reg_reg_8 : 0 0 : 3285 3285 : Used 1 time 0
+ Sort Area is  mul_ln14_1_reg_7112_reg_37 : 0 0 : 2252 2252 : Used 1 time 0
+ Sort Area is  mul_ln15_1_reg_7124_reg_19 : 0 0 : 2252 2252 : Used 1 time 0
+ Sort Area is  mul_ln16_1_reg_7129_reg_6 : 0 0 : 2252 2252 : Used 1 time 0
+ Sort Area is  trunc_ln15_6_reg_7326_reg_2d : 0 0 : 2248 2248 : Used 1 time 0
+ Sort Area is  trunc_ln15_7_reg_7287_reg_1c : 0 0 : 2248 2248 : Used 1 time 0
+ Sort Area is  trunc_ln15_8_reg_7294_reg_c : 0 0 : 2248 2248 : Used 1 time 0
+ Sort Area is  trunc_ln15_9_reg_7333_reg_21 : 0 0 : 2248 2248 : Used 1 time 0
+ Sort Area is  trunc_ln16_1_reg_7379_reg_14 : 0 0 : 2248 2248 : Used 1 time 0
+ Sort Area is  trunc_ln6_reg_7372_reg_18 : 0 0 : 2248 2248 : Used 1 time 0
+ Sort Area is  mul_18ns_16s_34_1_1_U50/tmp_product_33 : 0 0 : 2234 2234 : Used 1 time 0
+ Sort Area is  mul_18ns_16s_34_1_1_U51/tmp_product_15 : 0 0 : 2234 2234 : Used 1 time 0
+ Sort Area is  mul_18ns_16s_34_1_1_U52/tmp_product_e : 0 0 : 2234 2234 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U45/tmp_product_2f : 0 0 : 895 2148 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U45/tmp_product_2f : 0 1 : 1253 2148 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U46/tmp_product_25 : 0 0 : 895 2148 : Used 1 time 0
+ Sort Area is  mul_28s_30ns_57_2_1_U46/tmp_product_25 : 0 1 : 1253 2148 : Used 1 time 0
+ Sort Area is  mul_27s_29ns_55_2_1_U44/tmp_product_3f : 0 0 : 814 1855 : Used 1 time 0
+ Sort Area is  mul_27s_29ns_55_2_1_U44/tmp_product_3f : 0 1 : 1041 1855 : Used 1 time 0
+ Sort Area is  mac_muladd_10s_8ns_14ns_18_4_1_U96/main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0_U/p_reg_reg_4 : 0 0 : 1481 1481 : Used 1 time 0
+ Sort Area is  trunc_ln23_1_reg_7911_reg_31 : 0 0 : 395 395 : Used 1 time 0
+ Sort Area is  trunc_ln23_2_reg_7928_reg_30 : 0 0 : 395 395 : Used 1 time 0
+ Sort Area is  trunc_ln23_reg_7863_reg_32 : 0 0 : 395 395 : Used 1 time 0
+ Sort Area is  trunc_ln35_1_reg_8047_reg_2a : 0 0 : 395 395 : Used 1 time 0
+ Sort Area is  trunc_ln35_2_reg_8064_reg_28 : 0 0 : 395 395 : Used 1 time 0
+ Sort Area is  trunc_ln35_reg_8030_reg_2b : 0 0 : 395 395 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2769.941 ; gain = 482.547 ; free physical = 1246 ; free virtual = 33297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 2769.941 ; gain = 482.547 ; free physical = 1243 ; free virtual = 33294
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_8_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_7_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_6_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_5_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_4_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_3_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_2_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_1_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/zbuffer_bool_ap_uint_ap_uint_ap_uint_ap_uint_ap_fixed_bool_z_buffer_U/ram_reg_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2785.957 ; gain = 498.562 ; free physical = 1225 ; free virtual = 33276
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++----------------------------------------------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                         | DSP Mapping          | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------------------------------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 12     | -      | -      | 38     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 12     | -      | -      | 38     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B)'              | 18     | 18     | -      | -      | 34     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 12     | -      | -      | 38     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 18     | -      | -      | 0      | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B)'              | 18     | 18     | -      | -      | 34     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 12     | -      | -      | 38     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 12     | -      | -      | 38     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A*B)'               | 30     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A*B)'               | 30     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A*B)'               | 30     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 12     | -      | -      | 38     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A*B)'               | 30     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A*B)'               | 30     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A*B)'               | 30     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B)'              | 18     | 18     | -      | -      | 34     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 18     | -      | -      | 0      | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (A'*B')'             | 30     | 18     | -      | -      | 0      | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|dsp48e1_wrapper__parameterized0                     | Dynamic              | -      | -      | -      | -      | 48     | -    | -    | -    | -    | -     | 0    | 0    | 
+|dsp48e1_wrapper                                     | A':B'                | 29     | 18     | -      | -      | 16     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|dsp48e1_wrapper__parameterized1                     | C+A:B                | 0      | 2      | 47     | -      | 48     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|main_process_rotate_norm                            | (PCIN+(A''*B'')')'   | 30     | 18     | -      | -      | 24     | 2    | 2    | -    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_16s_10s_24s_24_4_1_DSP48_0  | (A'*B'')'            | 30     | 18     | -      | -      | 0      | 1    | 2    | -    | -    | -     | 0    | 1    | 
+|main_process_rotate_norm                            | (PCIN+(A'*B'')')'    | 30     | 18     | -      | -      | 0      | 1    | 2    | -    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_10s_8ns_14ns_18_4_1_DSP48_0 | (C+(A'*B')')'        | 30     | 8      | 14     | -      | 18     | 1    | 1    | 1    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0 | (C'+(A''*B')')'      | 18     | 18     | 48     | -      | 35     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_18ns_16s_33s_35_4_1_DSP48_0 | (C'+(A''*B')')'      | 18     | 18     | 48     | -      | 35     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0 | (C+(A''*B')')'       | 18     | 18     | 48     | -      | 35     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0 | (C+(A''*B')')'       | 18     | 18     | 48     | -      | 35     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|main_process_mac_muladd_18ns_16s_34s_35_4_1_DSP48_0 | (C+(A''*B')')'       | 18     | 18     | 48     | -      | 35     | 2    | 1    | 1    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (C'+(A''*B'')')'     | 18     | 18     | 48     | -      | 35     | 2    | 2    | 2    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN-((A'*B')'))'   | 30     | 18     | -      | -      | 28     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN-((A'*B')'))'   | 30     | 18     | -      | -      | 28     | 1    | 1    | -    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN-((A''*B'')'))' | 30     | 18     | -      | -      | 28     | 2    | 2    | -    | -    | -     | 1    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B'                | 18     | 18     | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B'                | 18     | 18     | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B'                | 18     | 18     | -      | -      | 35     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B                 | 30     | 16     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN>>17+A*B')'     | 11     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B                 | 17     | 16     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN>>17+A*B)'      | 0      | 11     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | A*B'                 | 17     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN>>17+A*B')'     | 12     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B                 | 17     | 17     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN>>17+A*B)'      | 0      | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | A*B'                 | 17     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN>>17+A*B')'     | 12     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|main_process_main_process_Pipeline_process_loop     | A'*B                 | 17     | 17     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|main_process_main_process_Pipeline_process_loop     | (PCIN>>17+A*B)'      | 0      | 12     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++----------------------------------------------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   510|
+|2     |DSP48E1  |    59|
+|19    |LUT1     |   466|
+|20    |LUT2     |  1456|
+|21    |LUT3     |   709|
+|22    |LUT4     |   672|
+|23    |LUT5     |   639|
+|24    |LUT6     |  1065|
+|25    |MUXCY    |   233|
+|26    |MUXF7    |    17|
+|27    |MUXF8    |     1|
+|28    |RAMB36E1 |   117|
+|30    |SRL16E   |   320|
+|31    |XORCY    |   129|
+|32    |FDE      |    35|
+|33    |FDRE     |  3277|
+|34    |FDSE     |    12|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2789.926 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 501 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2789.926 ; gain = 432.562 ; free physical = 1227 ; free virtual = 33278
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2789.934 ; gain = 502.531 ; free physical = 1227 ; free virtual = 33278
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2789.934 ; gain = 0.000 ; free physical = 1521 ; free virtual = 33572
+INFO: [Netlist 29-17] Analyzing 1101 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2851.891 ; gain = 0.000 ; free physical = 1523 ; free virtual = 33574
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 100 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 65 instances
+  FDE => FDRE: 35 instances
+
+Synth Design complete | Checksum: dc57b759
+INFO: [Common 17-83] Releasing license: Synthesis
+240 Infos, 281 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 2851.891 ; gain = 1171.965 ; free physical = 1523 ; free virtual = 33574
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2343.858; main = 2026.006; forked = 391.311
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3811.758; main = 2851.895; forked = 1041.812
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2875.902 ; gain = 0.000 ; free physical = 1523 ; free virtual = 33574
+INFO: [Common 17-1381] The checkpoint '/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/main_process_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP main_process_0, cache-ID = 36dcd0a106e87c4c
+INFO: [Coretcl 2-1174] Renamed 240 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2875.902 ; gain = 0.000 ; free physical = 1498 ; free virtual = 33565
+INFO: [Common 17-1381] The checkpoint '/home/wu/__PYNQ__/board_grey/Pynq-Z2/base/base/base.runs/main_process_0_synth_1/main_process_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file main_process_0_utilization_synth.rpt -pb main_process_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 25 16:12:47 2025...

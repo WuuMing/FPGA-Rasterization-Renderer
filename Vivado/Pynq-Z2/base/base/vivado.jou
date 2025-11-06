@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Oct 23 00:57:13 2025
+# Process ID: 6100
+# Current directory: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base
+# Command line: vivado
+# Log file: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/vivado.log
+# Journal file: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/vivado.jou
+# Running On        :ubuntu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.10
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700HX
+# CPU Frequency     :2304.001 MHz
+# CPU Physical cores:16
+# CPU Logical cores :16
+# Host memory       :10377 MB
+# Swap memory       :2147 MB
+# Total Virtual     :12524 MB
+# Available Virtual :10561 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/base.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run base_proc_sys_reset_pixelclk_0_synth_1
+reset_run base_auto_us_0_synth_1
+reset_run base_m00_regslice_17_synth_1
+reset_run base_m01_regslice_17_synth_1
+reset_run base_m02_regslice_0_synth_1
+reset_run base_m03_regslice_0_synth_1
+reset_run base_m04_regslice_0_synth_1
+reset_run base_m00_regslice_16_synth_1
+reset_run base_m01_regslice_16_synth_1
+reset_run base_auto_pc_0_synth_1
+reset_run base_auto_pc_1_synth_1
+reset_run base_auto_cc_1_synth_1
+reset_run base_s00_regslice_16_synth_1
+reset_run base_auto_cc_0_synth_1
+reset_run base_auto_cc_2_synth_1
+reset_run base_auto_pc_3_synth_1
+reset_run base_auto_pc_2_synth_1
+reset_run base_auto_cc_3_synth_1
+reset_run base_m05_regslice_0_synth_1
+reset_run base_m06_regslice_0_synth_1
+reset_run base_m07_regslice_0_synth_1
+reset_run base_m08_regslice_0_synth_1
+reset_run base_m09_regslice_0_synth_1
+reset_run base_s00_regslice_17_synth_1
+reset_run base_axis_register_slice_0_1_synth_1
+reset_run base_color_convert_1_synth_1
+reset_run base_color_swap_0_1_synth_1
+reset_run base_hdmi_out_hpd_video_0_synth_1
+reset_run base_rgb2dvi_0_0_synth_1
+reset_run base_v_axi4s_vid_out_0_0_synth_1
+reset_run base_vtc_out_0_synth_1
+reset_run base_pixel_unpack_0_synth_1
+reset_run base_ps7_0_0_synth_1
+reset_run base_xbar_6_synth_1
+reset_run base_rst_ps7_0_fclk0_0_synth_1
+reset_run base_rst_ps7_0_fclk1_0_synth_1
+reset_run base_system_interrupts_0_synth_1
+reset_run base_xbar_9_synth_1
+reset_run base_xbar_10_synth_1
+reset_run base_axi_vdma_0_synth_1
+reset_run base_axis_register_slice_0_0_synth_1
+reset_run base_color_convert_0_synth_1
+reset_run base_axi_gpio_hdmiin_0_synth_1
+reset_run base_color_swap_0_0_synth_1
+reset_run base_dvi2rgb_0_0_synth_1
+reset_run base_v_vid_in_axi4s_0_0_synth_1
+reset_run base_vtc_in_0_synth_1
+reset_run base_pixel_pack_0_synth_1
+reset_run base_axi_dynclk_0_synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

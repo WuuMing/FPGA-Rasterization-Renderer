@@ -1,0 +1,74 @@
+[
+  {
+    "directory": "/home/wu/__PYNQ__/hls_ok/render",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/wu/__PYNQ__/hls_ok/src/zbuffer.cpp"
+    ],
+    "file": "/home/wu/__PYNQ__/hls_ok/src/zbuffer.cpp"
+  },
+  {
+    "directory": "/home/wu/__PYNQ__/hls_ok/render",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/wu/__PYNQ__/hls_ok/src/rotate_norm.cpp"
+    ],
+    "file": "/home/wu/__PYNQ__/hls_ok/src/rotate_norm.cpp"
+  },
+  {
+    "directory": "/home/wu/__PYNQ__/hls_ok/render",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/wu/__PYNQ__/hls_ok/src/triangle.cpp"
+    ],
+    "file": "/home/wu/__PYNQ__/hls_ok/src/triangle.cpp"
+  },
+  {
+    "directory": "/home/wu/__PYNQ__/hls_ok/render",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/wu/__PYNQ__/hls_ok/src/rotate_move.cpp"
+    ],
+    "file": "/home/wu/__PYNQ__/hls_ok/src/rotate_move.cpp"
+  },
+  {
+    "directory": "/home/wu/__PYNQ__/hls_ok/render",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/wu/__PYNQ__/hls_ok/src/main.cpp"
+    ],
+    "file": "/home/wu/__PYNQ__/hls_ok/src/main.cpp"
+  },
+  {
+    "directory": "/home/wu/__PYNQ__/hls_ok/render",
+    "arguments": [
+      "/tools/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++",
+      "-fhls",
+      "-hls-syn-headers-dir=/tools/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot",
+      "",
+      "-c",
+      "/home/wu/__PYNQ__/hls_ok/src/get_index.cpp"
+    ],
+    "file": "/home/wu/__PYNQ__/hls_ok/src/get_index.cpp"
+  }
+]

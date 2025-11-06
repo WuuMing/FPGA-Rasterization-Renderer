@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Oct 23 00:36:41 2025
+# Process ID: 10759
+# Current directory: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base
+# Command line: vivado
+# Log file: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/vivado.log
+# Journal file: /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/vivado.jou
+# Running On        :ubuntu
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.10
+# Processor Detail  :13th Gen Intel(R) Core(TM) i7-13700HX
+# CPU Frequency     :2304.001 MHz
+# CPU Physical cores:16
+# CPU Logical cores :16
+# Host memory       :10377 MB
+# Swap memory       :2147 MB
+# Total Virtual     :12524 MB
+# Available Virtual :8076 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/wu/__PYNQ__/boards/Pynq-Z2/base/base/base.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/wu/__PYNQ__/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/base.bd}
+delete_bd_objs [get_bd_nets clk_wiz_10MHz_clk_out1] [get_bd_cells clk_wiz_10MHz]
+delete_bd_objs [get_bd_ports audio_clk_10MHz]
+save_bd_design
